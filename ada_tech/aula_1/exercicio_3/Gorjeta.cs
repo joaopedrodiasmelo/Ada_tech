@@ -86,7 +86,7 @@ namespace Calcular_gorgeta
                     {
                         if ((auxiliar != ',' && auxiliar != '.') || quantidade_de_caracteres)
                         {
-                            Console.WriteLine("Entrada inválida, digite novamente: aaa");
+                            Console.WriteLine("Entrada inválida, digite novamente: ");
                             auxiliar_verificacao = false;
                             break;
                         }
@@ -95,7 +95,7 @@ namespace Calcular_gorgeta
                         {
                             if (a == 0)//caso no qual esses caracteres aparecem na primeira posição (ex: .2 ou ,2)
                             {
-                                Console.WriteLine("Entrada inválida, digite novamente: bbb");
+                                Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliar_verificacao = false;
                                 break;
                             }
