@@ -75,7 +75,6 @@ namespace Leitura_de_numeros
         }
         static void Operacoes(List<double> numeros)
         {
-            numeros.Sort();//ordena o vetor
             double soma = 0;
             double numero_de_pares = 0;
 
