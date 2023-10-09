@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_2\\exercicio_5\\exercicio_5.csproj",
-      "projectName": "exercicio_5",
-      "projectPath": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_2\\exercicio_5\\exercicio_5.csproj",
+      "projectUniqueName": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_3\\exercicio_2\\exercicio_2.csproj",
+      "projectName": "exercicio_2",
+      "projectPath": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_3\\exercicio_2\\exercicio_2.csproj",
       "packagesPath": "C:\\Users\\diasj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_2\\exercicio_5\\obj\\",
+      "outputPath": "C:\\Users\\diasj\\Documents\\Faculdade\\curso_#\\ada_tech\\aula_3\\exercicio_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\diasj\\AppData\\Roaming\\NuGet\\NuGet.Config",
