@@ -12,7 +12,7 @@ namespace Soma_entre_Intervalos
             {
                 Soma_entre_Intervalos.Validar_input();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Erro nas funções estáticas.");
             }
@@ -155,7 +155,7 @@ namespace Soma_entre_Intervalos
                     Console.WriteLine("Erro, algum input inválido foi digitado, digite novamente: ");
                 }
             }
-
+            
             Soma_entre_Intervalos.Operacao(num1, num2);
         }
         //função responsável por realizar a operação desejada no problema

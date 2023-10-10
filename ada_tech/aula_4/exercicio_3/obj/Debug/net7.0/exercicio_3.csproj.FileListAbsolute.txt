@@ -1,0 +1,14 @@
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\bin\Debug\net7.0\exercicio_3.exe
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\bin\Debug\net7.0\exercicio_3.deps.json
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\bin\Debug\net7.0\exercicio_3.runtimeconfig.json
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\bin\Debug\net7.0\exercicio_3.dll
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\bin\Debug\net7.0\exercicio_3.pdb
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.AssemblyInfoInputs.cache
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.AssemblyInfo.cs
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.dll
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\refint\exercicio_3.dll
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.pdb
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\exercicio_3.genruntimeconfig.cache
+C:\Users\diasj\Documents\Faculdade\curso_#\ada_tech\aula_4\exercicio_3\obj\Debug\net7.0\ref\exercicio_3.dll
