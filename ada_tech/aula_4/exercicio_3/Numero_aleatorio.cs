@@ -12,8 +12,8 @@ namespace Numero_aleatorio
 
                 if (numero_aleatorio == 0)
                     Console.WriteLine("Erro na geração do numero aleatório");
-
-                Numero_aleatorio.Dicas_usuário(numero_aleatorio, 1, 100);
+                else
+                    Numero_aleatorio.Dicas_usuário(numero_aleatorio, 1, 100);
             }
             catch (Exception ex)
             {
