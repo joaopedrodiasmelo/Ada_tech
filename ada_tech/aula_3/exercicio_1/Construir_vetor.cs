@@ -43,6 +43,7 @@ namespace Vetores
                     Console.WriteLine("Elemento inválido,digite novamente: ");
                     continue;
                 }
+                
 
                 for (int b = 0; b < entrada.Length; b++)//percorre a string entrada, buscando verificar se ela está dentro dos requisítos
                 {
@@ -51,14 +52,22 @@ namespace Vetores
                         char auxiliar = entrada[b];
                         if (!char.IsDigit(auxiliar))//siginifica que o valor presente não é um valor entre 0-9, porem caracteres ',' ' '. são validos com algumas restrições
                         {
+        
                             if ((b == 0) && (auxiliar == ',' || auxiliar == ' '))//significa que os caracteres ',' ' ', estão na primeira posiçao do vetor
                             {
                                 Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliarA = false;
                                 break;
                             }
+                            
                             if (auxiliar != ',' && auxiliar != ' ')
                             {
+                                if (auxiliar == '-' && ((b + 1) < entrada.Length))//verificar numeros negativos
+                                {
+                                    char auxiliar2 = entrada[b + 1];
+                                    if (char.IsDigit(auxiliar2))
+                                        continue;//significa que o valor na frente do - é um número 
+                                }
                                 Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliarA = false;
                                 break;
@@ -78,19 +87,25 @@ namespace Vetores
                             }
                             if (auxiliar != ',' && auxiliar != ' ')
                             {
+                                if (auxiliar == '-' && ((b + 1) < entrada.Length))//verificar numeros negativos
+                                {
+                                    char auxiliar2 = entrada[b + 1];
+                                    if (char.IsDigit(auxiliar2))
+                                        continue;//significa que o valor na frente do - é um número 
+                                }
+                                
                                 Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliarB = false;
                                 break;
                             }
                         }
-
                     }
-
                 }
                 if (auxiliarA)
                 {
                     // Define os caracteres de delimitação (',' e ' ')
                     char[] delimitadores = { ',', ' ' };
+
 
                     // Divide a string em partes usando os delimitadores
                     string[] partes = entrada.Split(delimitadores, StringSplitOptions.RemoveEmptyEntries);
@@ -99,6 +114,7 @@ namespace Vetores
                         Console.WriteLine("Entrada inválida,o vetor A deve ter no máximo 10 elementos; digite novamente: ");
                         continue;
                     }
+                    
 
                     quantidade_A = quantidade_A - partes.Length;
 
