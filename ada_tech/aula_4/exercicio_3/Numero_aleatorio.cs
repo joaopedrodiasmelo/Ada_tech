@@ -121,7 +121,7 @@ namespace Numero_aleatorio
         static void Dicas_usuário(int num_sorteado, int comeco, int final)
         {
 
-            int numero_usuario = Numero_aleatorio.Validar_input();
+            int numero_usuario = Numero_aleatorio.Validar_input();// valida o input do usuário 
             if (comeco == final)
             {
                 Console.WriteLine("Voce utilizou todas as suas dicas, desculpe tente novamente.");
@@ -136,7 +136,7 @@ namespace Numero_aleatorio
             {
                 if (num_sorteado > ((comeco + final) / 2))
                 {
-                    Console.WriteLine("\n" + "O numero aleátorio sorteado é maior que " + ((comeco + final) / 2) + " e menor que" + final);
+                    Console.WriteLine("\n" + "O numero aleátorio sorteado é maior que " + ((comeco + final) / 2) + " e menor que " + final);
                     Dicas_usuário(num_sorteado, (comeco + final) / 2, final);
                 }
                 else
