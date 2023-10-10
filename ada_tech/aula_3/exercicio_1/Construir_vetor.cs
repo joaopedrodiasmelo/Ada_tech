@@ -7,7 +7,9 @@ namespace Vetores
     {
         static void Main(string[] args)
         {
-            Vetores.Validar_input();
+            {
+                Vetores.Validar_input();
+            }
         }
         //função responsável por receber o input, validar esse input, e realizar as operações desejadas no exercício
         static void Validar_input()
@@ -43,7 +45,6 @@ namespace Vetores
                     Console.WriteLine("Elemento inválido,digite novamente: ");
                     continue;
                 }
-                
 
                 for (int b = 0; b < entrada.Length; b++)//percorre a string entrada, buscando verificar se ela está dentro dos requisítos
                 {
@@ -52,14 +53,14 @@ namespace Vetores
                         char auxiliar = entrada[b];
                         if (!char.IsDigit(auxiliar))//siginifica que o valor presente não é um valor entre 0-9, porem caracteres ',' ' '. são validos com algumas restrições
                         {
-        
+
                             if ((b == 0) && (auxiliar == ',' || auxiliar == ' '))//significa que os caracteres ',' ' ', estão na primeira posiçao do vetor
                             {
                                 Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliarA = false;
                                 break;
                             }
-                            
+
                             if (auxiliar != ',' && auxiliar != ' ')
                             {
                                 if (auxiliar == '-' && ((b + 1) < entrada.Length))//verificar numeros negativos
@@ -93,7 +94,7 @@ namespace Vetores
                                     if (char.IsDigit(auxiliar2))
                                         continue;//significa que o valor na frente do - é um número 
                                 }
-                                
+
                                 Console.WriteLine("Entrada inválida, digite novamente: ");
                                 auxiliarB = false;
                                 break;
@@ -106,7 +107,6 @@ namespace Vetores
                     // Define os caracteres de delimitação (',' e ' ')
                     char[] delimitadores = { ',', ' ' };
 
-
                     // Divide a string em partes usando os delimitadores
                     string[] partes = entrada.Split(delimitadores, StringSplitOptions.RemoveEmptyEntries);
                     if ((quantidade_A - partes.Length) < 0)
@@ -114,7 +114,6 @@ namespace Vetores
                         Console.WriteLine("Entrada inválida,o vetor A deve ter no máximo 10 elementos; digite novamente: ");
                         continue;
                     }
-                    
 
                     quantidade_A = quantidade_A - partes.Length;
 
@@ -138,7 +137,7 @@ namespace Vetores
                         Console.WriteLine("Entrada inválida,o vetor B deve ter no máximo 10 elementos; digite novamente: ");
                         continue;
                     }
-
+                    
                     quantidade_B = quantidade_B - partes.Length;
 
                     for (int b = 0; b < partes.Length; b++)
